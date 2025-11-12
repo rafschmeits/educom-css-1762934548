@@ -16,3 +16,13 @@
      background-color: rgba(255,0,0,0.4);
      display: inline-block;
 }
+
+#person { 
+  background-color: rgb(208, 255, 0);
+  font-size: 30px;
+  color: blue;
+  width: 200px;
+  height: 200px;
+
+}
+<div id="person">...
