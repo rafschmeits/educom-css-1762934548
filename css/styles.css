@@ -6,25 +6,29 @@
  *
  */
 
-.color-box {
-    display: inline-block;
+:root {
+    --box-color: #4CAF50;
+    --box-padding: 20px;
+    --box-margin: 10px;
+    --text-color: #FFF;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222;
+    color: var(--text-color);
+    text-align: center;
+    padding: 30px;
+}
+
+.box {
+    background-color: var(--box-color);
+    padding: var(--box-padding);
+    margin: var(--box-margin);
     width: 150px;
     height: 150px;
-    background-color: red;
-    text-align: center;
+    display: inline-block;
     line-height: 150px;
-    color: white;
-    font-family: Arial, sans-serif;
-    font-size: 18px;
-    text-decoration: none;
     border-radius: 10px;
+    font-weight: bold;
 }
-
-
-.color-box:hover {
-    background-color: blue;
-}
-
-
-.color-box:active {
-    background-color: orange;
