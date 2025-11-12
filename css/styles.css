@@ -6,22 +6,36 @@
  *
  */
 
-.cascading-parent {
-     font-weight: bold;
-    color: #FFF;
-    text-align: center;
-    background-color: #333;
-    padding: 30px;
+a {
+    font-size: 20px;
+    color: #F00;
+    text-decoration: none;
 }
 
-.cascading-child {
-      background-color: #FF0 !important;
-    width: 120px;
-    height: 120px;
-    border-radius: 50%; 
-    display: inline-flex; 
-    justify-content: center;
-    align-items: center;
-    margin: 10px;
-    font-size: 18px;
+.header a {
+    color: #0F0;
+}
+
+.footer a {
+    color: #FF0;
+}
+
+.cascading-parent h2 {
+    color: #FD0;
+}
+
+.cascading-parent a {
+    font-size: 28px;
+    color: #CCC;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222;
+    color: white;
+    padding: 20px;
+}
+
+h2 {
+    margin-bottom: 5px;
 }
