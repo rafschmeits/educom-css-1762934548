@@ -43,6 +43,43 @@ html, body {
     text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
 }
 
+.menu {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.menu-trigger {
+    background-color: #FFF;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #250d0d;
+    font-weight: bold;
+}
+
+.menu-trigger:hover {
+    background-color: #ff5100;
+}
+
+.dropdown {
+    display: none; /* verberg standaard */
+    position: absolute;
+    top: 50px; 
+    right: 0;
+    width: 150px;
+    background-color: rgb(221, 244, 255);
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+.menu:hover .dropdown {
+    display: block;
+}
+
 #rome {
     background-image: url("https://tourismmedia.italia.it/is/image/mitur/20220127150143-colosseo-roma-lazio-shutterstock-756032350-1?wid=1600&hei=900&fit=constrain,1&fmt=webp");
 }
